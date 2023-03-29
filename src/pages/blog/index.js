@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby'
 import * as React from 'react'
-import Layout from '../components/layout'
-import Seo from '../components/seo'
+import Layout from '../../components/layout'
+import Seo from '../../components/seo'
 
 // using GraphQL query allFile > nodes with filter to blog 
 const BlogPage = ({ data }) => {
