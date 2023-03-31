@@ -4,6 +4,7 @@ import Layout from '../../components/layout'
 import Seo from '../../components/seo'
 
 // using GraphQL query allFile > nodes with filter to blog 
+// links to post inside top-level blog directory with dynamic link
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="My Blog Posts">
