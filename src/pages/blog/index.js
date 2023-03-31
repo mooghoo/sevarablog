@@ -1,5 +1,6 @@
 import { Link, graphql } from 'gatsby'
 import * as React from 'react'
+import { postLinks } from '../../components/blog.module.css'
 import Layout from '../../components/layout'
 import Seo from '../../components/seo'
 
@@ -7,11 +8,11 @@ import Seo from '../../components/seo'
 // links to post inside top-level blog directory with dynamic link
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="Blog Posts">
       {
         data.allMdx.nodes.map(node =>   (
             <article key={node.id}>
-            <h2><Link to={`${node.frontmatter.slug}`}>
+            <h2><Link className={postLinks} to={`${node.frontmatter.slug}`}>
               {node.frontmatter.title}
               </Link>
               </h2>

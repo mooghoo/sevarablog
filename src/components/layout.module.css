@@ -1,13 +1,15 @@
 .container {
-    margin: auto;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #433E0E;
+  margin: auto;
   max-width: 500px;
-  font-family: sans-serif;
 }
 
 .heading {
-    color: rebeccapurple;
+    color: #433E0E;
   }
   .nav-links {
+    color: #433E0E;
     display: flex;
     list-style: none;
     padding-left: 0;
@@ -15,10 +17,10 @@
   .nav-link-item {
     padding-right: 2rem;
   }
-  .nav-link-text {
-    color: black;
+  .nav-link-item a {
+    color: #433E0E;
+    text-decoration: none;
   }
-
   .site-title {
     font-size: 3rem;
   }

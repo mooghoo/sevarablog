@@ -7,11 +7,13 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <p>Welcome to my website!</p>
+      <p>Check out my blog for all of my progress cooking Ina Garten's recipes.</p>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+        alt="Lavender tea with frothy oat milk"
+        src="https://cloud-blh7xzyra-hack-club-bot.vercel.app/0img_6913.jpg"
       />
+      <p>A lovely coffee {'('}that I did not make{')'}.</p>
     </Layout>
   )
 }
